@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmO - Government Policies and Loans for Farmers</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Screenshot 2024-09-10 174200.png" alt="FarmO Logo" class="logo">
+            <h1>FarmO: Government Policies and Loans</h1>
+            <p>Stay informed about the latest agricultural initiatives</p>
+        </header>
+
+        <main>
+            <section id="policies">
+                <h2>Agricultural Policies</h2>
+                <input type="text" id="policy-search" placeholder="Search policies...">
+                <ul id="policy-list">
+                    <!-- Policies will be dynamically added here -->
+                </ul>
+                <a href="https://www.farmers.gov/working-with-us/farm-programs" target="_blank" class="search-link">Search more policies</a>
+            </section>
+
+            <section id="loans">
+                <h2>Farmer Loan Programs</h2>
+                <input type="text" id="loan-search" placeholder="Search loans...">
+                <div id="loan-list">
+                    <!-- Loans will be dynamically added here -->
+                </div>
+                <a href="https://www.farmers.gov/loans" target="_blank" class="search-link">Search more loan programs</a>
+            </section>
+
+            <section id="subscribe">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest policy and loan updates.</p>
+                <form id="subscribe-form">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 FarmO. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
